@@ -21,7 +21,7 @@ steps:
   inputs:
     buildType: 'specific'
     project: 'e70fb9de-9678-4ece-b636-075bbbac0e45'
-    definition: '3'
+    definition: '149'
     buildVersionToDownload: 'latest'
     targetPath: '$(Pipeline.Workspace)'
 - task: AzureResourceManagerTemplateDeployment@3
